@@ -1,0 +1,50 @@
+body {
+
+    color: #d8e0ed;
+
+  }
+  .jumbotron {
+    color: #a13f3f;
+    background-image: url("../images/backdrop.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    font-weight: bold;
+  }
+  table {
+    text-align: left;
+    
+    color: #FDF4EB;
+    font-size: small;
+    overflow-x: scroll;
+  }
+  table {
+    border-collapse: collapse;
+    text-align: left;
+    background: rgb(184, 57, 57);
+    table-layout: fixed;
+    width: 100%;
+  }
+  .table th {
+    padding: 0.5vw 1vw;
+    text-align: left;
+    border: 1px solid #FDF4EB;
+    width: 20vw;
+    font-size: normal;
+  }
+  .table td {
+    font-size: normal;
+    text-align: left;
+    width: 18vw;
+    height: 9vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.table tr {
+  font-size: normal;
+  text-align: left;
+  width: 18vw;
+  height: 9vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
